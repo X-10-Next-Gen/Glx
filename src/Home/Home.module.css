@@ -1,0 +1,267 @@
+.container {
+
+  margin-bottom: 20px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-inner {
+  width: 100%;
+  display: flex;
+}
+
+.carousel-item {
+  width: 100%;
+  text-align: center;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.sr-only {
+  display: none;
+}
+
+.card {
+  padding: 1.25rem; /* Equivalent to p-5 */
+  border: 2px solid #67e8f9; /* Equivalent to border-2 border-cyan-300 */
+  border-radius: 1rem; /* Equivalent to rounded-2xl */
+  text-align: center; /* Equivalent to text-center */
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+  margin-top: 8.75rem; /* Equivalent to mt-35 */
+  width: 100%; /* Equivalent to w-full */
+  height: 100%; /* Equivalent to h-full */
+} 
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 10rem 0rem;
+}
+
+@media (min-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.textBlock {
+ 
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-family: monospace;
+  margin: 8px 0;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #000;
+}
+
+.highlight {
+  font-weight: bold;
+  font-family: monospace;
+  margin: 8px 0;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.image {
+  border-radius: 16px;
+  max-width: 100%;
+  height: auto;
+  margin: 0em 1rem;
+}
+.servicesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .servicesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.serviceBox {
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:  2rem;
+  
+}
+
+.separator {
+  width: 60px;
+  height: 4px;
+  background-color: #0891b2;
+  margin: 16px 0;
+}
+
+.serviceTitle {
+  margin: 12px;
+  font-weight: bold;
+}
+
+.serviceText {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.mapContainer {
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 2rem;
+}
+
+.mapContainer iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1.25rem;
+  
+}
+.mainContainer{
+  background-color: #0891b2;
+  color: #ffffff;
+  padding: 1rem;
+  margin-top: 5rem;
+  h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .contactContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.detailsSection {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-left: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.infoTitle,
+.phoneDetails,
+.hoursTitle,
+.locationHeading {
+  margin: 1rem 0;
+  font-weight: 500;
+  font-size: 1.575rem;
+}
+
+.hoursList {
+  list-style: none;
+  padding: 0;
+}
+
+.hoursEntry {
+  font-weight: 900;
+  font-size: 1.875rem;
+  margin-top: 0.75rem;
+}
+
+.lightWeight {
+  font-weight: 200;
+}
+
+.locationText {
+  font-family: monospace;
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.25rem;
+}
+
+.bookContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000; /* Tailwind bg-gray-100 */
+  padding: 2.5rem;
+  margin: 5rem;
+}
+
+.bookHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bookParagraph {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.bookButton {
+  background-color: #06b6d4; /* Tailwind bg-cyan-500 */
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.bookButton:hover {
+  background-color: #0891b2; /* Tailwind hover:bg-cyan-600 */
+}

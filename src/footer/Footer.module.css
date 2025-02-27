@@ -1,0 +1,83 @@
+/* Footer.css */
+.footer {
+    background-color: #0891b2; /* bg-cyan-600 */
+    color: white; /* text-white */
+    font-size: 1.125rem; /* text-lg */
+    /* margin-top: 500px; */
+  }
+  a{
+    text-decoration: none;
+    color: #ffffff;
+ /* p-2 */
+    font-size: 1.5rem; /* text-2xl */
+    transition: color 0.5s ease, background-color 0.5s ease; /* duration-500 ease-in */
+    border-radius: 1rem; /* rounded-2xl */
+  }
+  .footer .header {
+    display: flex; /* flex */
+    justify-content: center; /* justify-center */
+    align-items: center; /* items-center */
+    padding: 5rem 2rem; /* p-20 */
+  }
+  
+  .footer .header h2 {
+    padding: 0.5rem; /* p-2 */
+  }
+  
+  .footer .content {
+    display: flex; /* flex */
+    flex-direction: column; /* flex-col */
+    justify-content: space-around; /* justify-around */
+    align-items: center; /* items-center */
+    padding: 1.25rem; /* p-5 */
+  }
+
+  
+  @media (min-width: 768px) {
+    .footer .content {
+      flex-direction: row; /* md:flex-row */
+    } 
+    .footer .special{
+    margin-left: 5rem;
+    text-align: left;
+  }
+  }
+  
+  .footer .section {
+    text-align: left; /* text-center */
+  }
+  
+  .footer .section h2 {
+    margin-top: 1.25rem; /* mt-5 */
+    /* margin-left: 3rem; */
+  }
+  
+  .footer .section ul {
+    padding: 0.75rem; /* p-3 */
+  }
+  
+  .footer .section li  {
+    padding: 0.7rem; /* p-2 */
+    font-size: 1.5rem; /* text-2xl */
+    transition: color 0.5s ease, background-color 0.5s ease; /* duration-500 ease-in */
+    border-radius: 1rem; /* rounded-2xl */
+  }
+  .footer .section li a:hover{
+    text-decoration: none;
+    
+  }
+  
+  .footer .section li:hover {
+    color: #155e75; /* hover:text-cyan-800 */
+    background-color: white; /* hover:bg-white */
+    transition: 0.6s ease-in;
+  }
+  
+  .footer .copyright {
+    text-align: center; /* text-center */
+    border-top: 5px solid white; /* border-t-2 border-white */
+    margin-top: 1.25rem; /* mt-5 */
+    width: 100%; /* w-full */
+    padding: 1.75rem; /* p-7 */
+    font-size: 1.575rem; /* text-3xl */
+  }

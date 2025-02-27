@@ -1,0 +1,61 @@
+/* General styles for the page */
+.pageSection {
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pageHeading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.pageSubheading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.pageList {
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.pageListItem {
+    margin-bottom: 0.5rem;
+}
+
+/* Highlight important terms in bold */
+.importantTerm {
+    font-weight: 700;
+    color: #06b6d4; /* Tailwind cyan-600 color */
+}
+
+/* Section with some padding */
+.pageParagraph {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Style for the conclusion section */
+.conclusionWrapper {
+    background-color: #eef7ff;
+    border-left: 5px solid #06b6d4;
+    padding: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.conclusionHeading {
+    font-size: 2.2rem;
+}
+
+.conclusionText {
+    font-size: 1.2rem;
+    color: #000000;
+}

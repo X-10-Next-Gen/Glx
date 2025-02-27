@@ -1,0 +1,142 @@
+.aboutusHeroSection {
+  background-image: url(https://images.pexels.com/photos/11661531/pexels-photo-11661531.jpeg?cs=srgb);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.aboutusHeroText {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.aboutusPrimaryButton {
+  height: 40px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+  .aboutusPrimaryButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .aboutusDepartmentSection {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .aboutusDepartmentHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .aboutusServicesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .aboutusServiceItem {
+    width: 250px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+  }
+  
+  .aboutusServiceImage {
+    width: 40px;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  
+  .aboutusContentSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+  }
+  
+  .aboutusContentContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .aboutusImage {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .aboutusTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .aboutusText {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .aboutusDoctorsSection {
+    text-align: center;
+    padding: 50px 20px;
+    margin: 3rem;
+  }
+  
+  .aboutusDoctorsHeader {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 2rem;
+  }
+  
+  .aboutusDoctorsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .aboutusDoctorImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: 3rem;
+   
+    /* object-fit: contain; */
+  }
+  
+  @media (max-width: 768px) {
+    .aboutusHeroSection {
+      background-image: url(../assets/photo.jpeg);
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      padding: 50px 20px;
+    }
+  
+    .aboutusContentContainer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .aboutusDoctorsContainer {
+      flex-wrap: wrap;
+    }
+  }
